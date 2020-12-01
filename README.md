@@ -7,3 +7,18 @@ For more information, please visit:
 * [Getting Started](https://github.com/junit-team/junit4/wiki/Getting-started)
 
 [![Build Status](https://travis-ci.org/junit-team/junit4.svg?branch=main)](https://travis-ci.org/junit-team/junit4)
+
+
+유닛테스트 연습페이지
+https://cyber-dojo.org/kata/edit/N5xjqw
+
+OpenJDK 다운로드
+https://github.com/ojdkbuild/ojdkbuild
+
+Maven 프로젝트 생성
+mvn archetype:generate -DgroupId=kr.godev.opensource -DartifactId=my_project -DinteractiveMode=false
+Cobertura 플러그인설징
+        <configuration>
+          <formats>
+       <format>xml</format>
+     </formats>
